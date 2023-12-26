@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79D0B33A2B3AABF600CBB06C /* HeadingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D0B3392B3AABF600CBB06C /* HeadingText.swift */; };
 		AA0F3EF42AB26D930062E7BC /* LinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0F3EF32AB26D930062E7BC /* LinksView.swift */; };
 		AA1AC60C2ABD2C3800AC02DA /* TogglesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1AC60B2ABD2C3800AC02DA /* TogglesView.swift */; };
 		AA59CDC82ABA1F3B0004908F /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA59CDC72ABA1F3B0004908F /* TabsView.swift */; };
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79D0B3392B3AABF600CBB06C /* HeadingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingText.swift; sourceTree = "<group>"; };
 		AA0F3EF32AB26D930062E7BC /* LinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksView.swift; sourceTree = "<group>"; };
 		AA0F3EF52AB377740062E7BC /* Links.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Links.md; sourceTree = "<group>"; };
 		AA1303162AFED27C001AE0BF /* TextFields.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TextFields.md; sourceTree = "<group>"; };
@@ -218,7 +220,6 @@
 				AABB44092AE6C0FB003480B3 /* DynamicTypeView.swift */,
 				AABD27BD2A9FE69500F718F7 /* Assets.xcassets */,
 				AABD27BF2A9FE69500F718F7 /* Preview Content */,
-				AABD27C72A9FF0D800F718F7 /* HeadingsView.swift */,
 				AAF127C12B23EDB500D5313D /* AccessibilityNotificationsView.swift */,
 				AABD27C92A9FF0E700F718F7 /* ImagesView.swift */,
 				AAF127B72B2194EA00D5313D /* ErrorValidationView.swift */,
@@ -232,6 +233,7 @@
 				BC8C92082B2A94B2006DAC20 /* ListsView.swift */,
 				AA1AC60B2ABD2C3800AC02DA /* TogglesView.swift */,
 				AA636C892ADD7FD900014BAF /* ProgressIndicatorsView.swift */,
+				AABD27C72A9FF0D800F718F7 /* HeadingsView.swift */,
 				AABD27CB2A9FF0F000F718F7 /* UIControlsView.swift */,
 				AA74DD5C2AFDCCFA00348078 /* PageTitleBad.swift */,
 				AA74DD5B2AFDCCF900348078 /* PageTitleGood.swift */,
@@ -251,6 +253,7 @@
 				AABD27D32A9FF12400F718F7 /* DecorativeView.swift */,
 				AABD27D52A9FF12A00F718F7 /* InformativeView.swift */,
 				AABD27D72A9FF13E00F718F7 /* DetailView.swift */,
+				79D0B3392B3AABF600CBB06C /* HeadingText.swift */,
 			);
 			path = iOSswiftUIa11yTechniques;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				AA65F7932AC2889100E143B4 /* SlidersView.swift in Sources */,
 				AA74DD582AFDACA100348078 /* SteppersView.swift in Sources */,
 				AABD27CA2A9FF0E700F718F7 /* ImagesView.swift in Sources */,
+				79D0B33A2B3AABF600CBB06C /* HeadingText.swift in Sources */,
 				AABD27C82A9FF0D800F718F7 /* HeadingsView.swift in Sources */,
 				AA636C8A2ADD7FD900014BAF /* ProgressIndicatorsView.swift in Sources */,
 				AABD27D02A9FF11400F718F7 /* AnnouncementsView.swift in Sources */,
@@ -590,7 +594,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSswiftUIa11yTechniques/Preview Content\"";
-				DEVELOPMENT_TEAM = VJ8862HM4M;
+				DEVELOPMENT_TEAM = 58SZF8S528;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOSswiftUIa11yTechniques/Info.plist;
@@ -607,7 +611,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.6;
-				PRODUCT_BUNDLE_IDENTIFIER = pauljadam.com.iOSswiftUIa11yTechniques;
+				PRODUCT_BUNDLE_IDENTIFIER = pauljadam.com.iOSswiftUIa11yTechniques.gj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -623,7 +627,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSswiftUIa11yTechniques/Preview Content\"";
-				DEVELOPMENT_TEAM = VJ8862HM4M;
+				DEVELOPMENT_TEAM = 58SZF8S528;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOSswiftUIa11yTechniques/Info.plist;
@@ -640,7 +644,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.6;
-				PRODUCT_BUNDLE_IDENTIFIER = pauljadam.com.iOSswiftUIa11yTechniques;
+				PRODUCT_BUNDLE_IDENTIFIER = pauljadam.com.iOSswiftUIa11yTechniques.gj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
