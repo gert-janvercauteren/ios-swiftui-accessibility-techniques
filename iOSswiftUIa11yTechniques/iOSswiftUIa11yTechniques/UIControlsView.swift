@@ -30,9 +30,9 @@ struct UIControlsView: View {
             NavigationLink(destination: DetailView()) {
                 Text("Checkboxes")
             }.disabled(/*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
-            NavigationLink(destination: DetailView()) {
-                Text("Dialogs")
-            }.disabled(/*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+            NavigationLink(destination: DialogsView()) {
+                Text("Confirmation Dialogs")
+            }
             NavigationLink(destination: GroupingControlsView()) {
                 Text("Grouping Controls")
             }
@@ -56,6 +56,9 @@ struct UIControlsView: View {
             }.disabled(/*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
             NavigationLink(destination: SegmentedControlsView()) {
                 Text("Segmented Controls")
+            }
+            NavigationLink(destination: SheetsView()) {
+                Text("Sheets")
             }
             NavigationLink(destination: SlidersView()) {
                 Text("Sliders")

@@ -42,6 +42,7 @@ Documentation files for each technique are listed below.
     - [x] [Toggles](iOSswiftUIa11yTechniques/Documentation/Toggles.md)
     - [x] [Tabs](iOSswiftUIa11yTechniques/Documentation/Tabs.md)
     - [x] [Segmented Controls](iOSswiftUIa11yTechniques/Documentation/SegmentedControls.md)
+    - [x] [Sheets](iOSswiftUIa11yTechniques/Documentation/Sheets.md)
     - [x] [Sliders](iOSswiftUIa11yTechniques/Documentation/Sliders.md)
     - [x] [Steppers](iOSswiftUIa11yTechniques/Documentation/Steppers.md)
     - [x] [Text Fields](iOSswiftUIa11yTechniques/Documentation/TextFields.md)
@@ -49,7 +50,7 @@ Documentation files for each technique are listed below.
     - [x] [Grouping Controls](iOSswiftUIa11yTechniques/Documentation/GroupingControls.md)
     - [ ] Checkboxes
     - [ ] Radio Buttons
-    - [ ] Dialogs
+    - [x] [Confirmation Dialogs](iOSswiftUIa11yTechniques/Documentation/ConfirmationDialogs.md)
     - [ ] Popovers
     - [ ] Menus
     - [x] [Pickers](iOSswiftUIa11yTechniques/Documentation/Pickers.md)
